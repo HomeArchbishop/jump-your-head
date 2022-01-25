@@ -38,7 +38,7 @@
           */
         </small>
       </p>
-      <hr>
+      <hr><hr><hr><hr><hr>
     </div>
   </div>
 </template>

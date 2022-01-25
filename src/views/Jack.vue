@@ -2,7 +2,6 @@
   <div class="jack-container">
     <div class="main-box">
       <div class="person-block"></div>
-      <div class="floor-block"></div>
     </div>
   </div>
 </template>
@@ -44,6 +43,7 @@
       width: 100%;
       height: 100%;
       animation: jack .2s infinite;
+      background: center no-repeat;
     }
     .floor-block {
       display: flex;
@@ -58,16 +58,16 @@
 
 @keyframes jack {
   0% {
-    background: no-repeat center url('../assets/img/person-jump-1-xyr.png');
+    background-image: url('../assets/img/person-jump-1-xyr.png');
   }
   49% {
-    background: no-repeat center url('../assets/img/person-jump-1-xyr.png');
+    background-image: url('../assets/img/person-jump-1-xyr.png');
   }
   50% {
-    background: no-repeat center url('../assets/img/person-jump-2-xyr.png');
+    background-image: url('../assets/img/person-jump-2-xyr.png');
   }
-  100% {
-    background: no-repeat center url('../assets/img/person-jump-2-xyr.png');
+  99% {
+    background-image: url('../assets/img/person-jump-2-xyr.png');
   }
 }
 </style>

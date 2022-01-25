@@ -2,7 +2,6 @@
   <div class="side-container">
     <div class="main-box">
       <div class="person-block"></div>
-      <div class="floor-block"></div>
     </div>
   </div>
 </template>
@@ -43,6 +42,7 @@
       display: flex;
       width: 100%;
       height: 100%;
+      background: no-repeat center;
       animation: side .2s infinite;
     }
     .floor-block {
@@ -59,19 +59,19 @@
 @keyframes side {
   0% {
     transform: translateX(-70px);
-    background: no-repeat center url('../assets/img/person-jump-left-xyr.png');
+    background-image: url('../assets/img/person-jump-left-xyr.png');
   }
   49% {
     transform: translateX(-70px);
-    background: no-repeat center url('../assets/img/person-jump-left-xyr.png');
+    background-image: url('../assets/img/person-jump-left-xyr.png');
   }
   50% {
     transform: translateX(70px);
-    background: no-repeat center url('../assets/img/person-jump-right-xyr.png');
+    background-image: url('../assets/img/person-jump-right-xyr.png');
   }
   100% {
     transform: translateX(70px);
-    background: no-repeat center url('../assets/img/person-jump-right-xyr.png');
+    background-image: url('../assets/img/person-jump-right-xyr.png');
   }
 }
 </style>

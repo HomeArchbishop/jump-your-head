@@ -2,7 +2,6 @@
   <div class="run-container">
     <div class="main-box">
       <img class="person-block" src="../assets/img/person-stand-xyr.png" alt="person-stand" width="300">
-      <div class="floor-block"></div>
     </div>
   </div>
 </template>

@@ -1,8 +1,7 @@
 <template>
   <div class="jump-container">
     <div class="main-box">
-      <img class="person-block" src="../assets/img/person-stand-xyr.png" alt="person-stand" width="300">
-      <div class="floor-block"></div>
+      <img class="person-block" src="../assets/img/person-stand-xyr.png" alt="person-stand" width="250">
     </div>
   </div>
 </template>
@@ -41,7 +40,6 @@
     }
     .person-block {
       display: flex;
-      width: 250px;
       animation: jump .15s infinite;
     }
     .floor-block {

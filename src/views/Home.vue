@@ -1,6 +1,9 @@
 <template>
   <div class="home-container">
     <div class="main-box">
+      <div class="tips">
+        推荐使用电脑。移动端当宽高不适应时，请尝试<u>切换横竖屏</u>或<u>缩放网页</u>。
+      </div>
       <div class="nav-list">
         <router-link
           :to="{ name: item.toName }"
@@ -19,6 +22,7 @@
           <div @click="navigate" class="nav-option-btn" role="button">{{ item.content }}</div>
         </router-link>
       </div>
+      <hr><hr><hr>
     </div>
   </div>
 </template>
@@ -40,12 +44,15 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
+    .tips {
+      margin-top: 30px;
+    }
     .nav-list {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
-      margin-top: 40px;
+      margin-top: 16px;
       .nav-option-btn {
         display: flex;
         flex-direction: row;
@@ -69,7 +76,7 @@
           margin-top: 24px;
         }
         &:nth-last-child(1) {
-          margin-bottom: 36px;
+          margin-bottom: 52px;
         }
       }
     }

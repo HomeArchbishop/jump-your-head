@@ -2,7 +2,6 @@
   <div class="plank-container">
     <div class="main-box">
       <img class="person-block" src="../assets/img/person-plank-xyr.png" alt="person-sit" width="300">
-      <div class="floor-block"></div>
     </div>
   </div>
 </template>
