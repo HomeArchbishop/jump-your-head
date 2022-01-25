@@ -1,0 +1,77 @@
+<template>
+  <div class="side-container">
+    <div class="main-box">
+      <div class="person-block"></div>
+      <div class="floor-block"></div>
+    </div>
+  </div>
+</template>
+
+<style lang="less" scope>
+@import '../assets/less/themes';
+@import '../assets/less/layout';
+
+@floor-height: 60px;
+@jump-height: @floor-height + 100px;
+
+.side-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  overflow: scroll;
+  .main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+    position: relative;
+    .title {
+      font-size: 20px;
+      position: absolute;
+      left: 20px;
+      top: @header-height;
+      color: @color-dark-6;
+      &::before {
+        content: '#';
+        margin-right: .2em;
+      }
+    }
+    .person-block {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      animation: side .2s infinite;
+    }
+    .floor-block {
+      display: flex;
+      width: 100%;
+      height: @floor-height;
+      position: absolute;
+      bottom: 0; left: 0;
+      background-color: @color-dark-8;
+    }
+  }
+}
+
+@keyframes side {
+  0% {
+    transform: translateX(-70px);
+    background: no-repeat center url('../assets/img/person-jump-left-xyr.png');
+  }
+  49% {
+    transform: translateX(-70px);
+    background: no-repeat center url('../assets/img/person-jump-left-xyr.png');
+  }
+  50% {
+    transform: translateX(70px);
+    background: no-repeat center url('../assets/img/person-jump-right-xyr.png');
+  }
+  100% {
+    transform: translateX(70px);
+    background: no-repeat center url('../assets/img/person-jump-right-xyr.png');
+  }
+}
+</style>

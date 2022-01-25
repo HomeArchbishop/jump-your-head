@@ -1,26 +1,53 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="wrap">
+    <MainHeader></MainHeader>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainHeader from '@/components/MainHeader'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainHeader
   }
 }
 </script>
 
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import 'assets/less/themes';
+
+@font-face {
+  font-family: 'juZhenJF';
+  src: url('./assets/font/FZJuZXFJF.ttf');
+}
+@font-face {
+  font-family: 'ZillaSlab';
+  src: url('./assets/font/ZillaSlab.ttf');
+}
+@font-face {
+  font-family: 'Braggadocio';
+  src: url('./assets/font/Braggadocio.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  &, * {
+    font-family: ZillaSlab, juZhenJF, Apple Color Emoji, Segoe UI Emoji, system-ui, sans-serif;
+    box-sizing: border-box!important;
+  }
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: @color-theme-10;
 }
 </style>
