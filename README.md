@@ -1,9 +1,5 @@
 <p align="center"><img width="100" src="images/favicon.png" alt="Logo 😅"></p>
 
-<p align="center" style="font-size:100px;">
-  😅
-</p>
-
 <p align="center"><img src="https://img.shields.io/github/license/homearchbishop/jump-your-head" alt="License"><img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/homearchbishop/jump-your-head/vue?color=%23%2342b983"><img alt="GitHub package.json dependency version (dev dep on branch)" src="https://img.shields.io/github/package-json/dependency-version/homearchbishop/jump-your-head/dev/less"></p>
 
 <h2 align="center" style="font-weight: 600">Jump Your Head</h2>
