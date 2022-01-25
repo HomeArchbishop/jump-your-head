@@ -24,7 +24,7 @@
         <br>
         👉
         <a class="repo-link"
-          href="https://github.com/HomeArchbishop/jump-your-head" target="_blanck"
+          href="https://github.com/HomeArchbishop/jump-your-head" target="_blank"
         >
           GitHub Repo
         </a>
