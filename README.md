@@ -4,15 +4,14 @@
 
 <h2 align="center" style="font-weight: 600">Jump Your Head</h2>
 
-<p align="center" style="font-size:1.5em;color:#aaa;">跳你个头</p>
-
 <p align="center">
+  跳你个头<br>
   <a href="60.205.178.3:7777" style="text-decoration:none;"><strong>🌎 使用DEMO</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#应用部署" style="text-decoration:none;"><strong>📦️ 应用部署</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="#开发" style="text-decoration:none;"><strong>🔨 开发</strong></a>
 </p>
 
-> <h3><span style="font-size=2em;background:yellow;">* 这是一个危险的项目。请注意你的使用。</span></h3>
+> ### <u>这是一个危险的项目。请注意你的使用。</u>
 >
 > “每天锻炼一小时，幸福生活一辈子。”
 >
