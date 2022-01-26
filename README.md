@@ -43,7 +43,7 @@ npm start
 # 默认端口7777
 ```
 
-### 停止 (Stop with pm2, autually delete the pm2 app)
+### 停止 (Stop with pm2, actually delete the pm2 app)
 
 ```
 npm stop

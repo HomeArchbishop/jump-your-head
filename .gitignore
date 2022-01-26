@@ -12,7 +12,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-server/logs
+server/log*
+
+# server scripts
+server/scripts
 
 # Editor directories and files
 .idea
