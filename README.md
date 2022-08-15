@@ -9,7 +9,7 @@
   ### 跳你个头
   #### (天天跳绳图像模拟)
 
-  **[🌎 使用DEMO](https://homearchbishop.github.io/jump-your-head)**
+  **[🌎 使用DEMO](60.205.178.3:7777)**
   &nbsp;&nbsp;|&nbsp;&nbsp;
   **[📦️ 应用部署](#️-应用部署)**
   &nbsp;&nbsp;|&nbsp;&nbsp;
