@@ -2,14 +2,19 @@
 
 <p align="center"><img src="https://img.shields.io/github/license/homearchbishop/jump-your-head" alt="License"><img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/homearchbishop/jump-your-head/vue?color=%23%2342b983"><img alt="GitHub package.json dependency version (dev dep on branch)" src="https://img.shields.io/github/package-json/dependency-version/homearchbishop/jump-your-head/dev/less"></p>
 
-<h2 align="center" style="font-weight: 600">Jump Your Head</h2>
+<h1 align="center">Jump Your Head</h1>
 
-<p align="center">
-  跳你个头<br>
-  <a href="http://60.205.178.3:7777/" style="text-decoration:none;"><strong>🌎 使用DEMO</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#应用部署" style="text-decoration:none;"><strong>📦️ 应用部署</strong></a>&nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="#开发" style="text-decoration:none;"><strong>🔨 开发</strong></a>
-</p>
+<div align="center">
+  
+  ### 跳你个头
+  #### (天天跳绳图像模拟)
+
+  **[🌎 使用DEMO](https://homearchbishop.github.io/jump-your-head)**
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  **[📦️ 应用部署](#️-应用部署)**
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  **[🔨 开发](#-开发)**
+</div>
 
 > ### <u>这是一个危险的项目。请注意你的使用。</u>
 >
